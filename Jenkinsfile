@@ -9,7 +9,7 @@ pipeline {
                     sh 'mvn clean'
                 }
             }
-        }
+       
 
         stage ('Testing Stage') {
 
@@ -28,4 +28,3 @@ pipeline {
                 }
             }
     }
-}
